@@ -1,7 +1,11 @@
 from setuptools import setup, find_packages
 
+from typing import List
 
-
+REQUIREMENT_FILE_NAME = 'requirements.txt'
+HYPHEN_E_DOT = "-e ."
+def get_requirements():
+    pass
 
 setup(
     name = "sensor",
@@ -9,5 +13,5 @@ setup(
     author="vaibhavthapli",
     author_email="hellovaibt@gmail.com",
     packages = find_packages(),
-    install_requires = get_reqirements(),
+    install_requires = get_requirements(),
 )
